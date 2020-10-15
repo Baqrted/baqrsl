@@ -1,2 +1,2 @@
 FROM ubuntu:20.04
-RUN setup.sh
+RUN chmod +x setup.sh; ./setup.sh
