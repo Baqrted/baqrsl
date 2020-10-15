@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
+# Redirect stderr to stdout since tracing/apt-get/dpkg spam it for things that aren't errors.
+exec 2>&1
+set -x
+
+export DEBIAN_FRONTEND=noninteractive
+
 apt-get update && apt upgrade && apt-get install -y\
     coreutils \
     bash \
