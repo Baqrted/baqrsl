@@ -52,9 +52,7 @@ apt-get update && apt upgrade && apt-get install -y\
     procps \
     policykit-1
 
-pip3 install setuptools -Y
-if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi 
-if [ ! -e /usr/bin/python ]; then ln -sf /usr/bin/python3 /usr/bin/python; fi 
+python -m pip install --upgrade setuptools pip wheel
 rm -r /root/.cache
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm -rf google-chrome-stable_current_amd64.deb
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
