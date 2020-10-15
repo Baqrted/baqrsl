@@ -6,7 +6,7 @@ set -euo pipefail
 exec 2>&1
 set -x
 
-DEBIAN_FRONTEND=noninteractive
+export RUN DEBIAN_FRONTEND=noninteractive
 
 apt-get update && apt upgrade && apt-get install -y\
     coreutils \
