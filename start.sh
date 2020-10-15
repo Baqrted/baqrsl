@@ -57,7 +57,6 @@ apt-get install -y --no-install-recommends \
     policykit-1
 
 pip3 install --upgrade pip setuptools 
-pip install python-magic-bin==0.4.14
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm -rf google-chrome-stable_current_amd64.deb
 mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
