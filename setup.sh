@@ -8,7 +8,9 @@ set -x
 
 
 
-apt-get update && apt upgrade && apt-get install -y\
+apt-get update 
+
+apt-get install -y --no-install-recommends \
     coreutils \
     bash \
     nodejs \
