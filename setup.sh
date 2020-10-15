@@ -1,6 +1,6 @@
-RUN apt-get update && apt upgrade -y && apt-get install sudo -y
+#!/usr/bin/env bash
 
-RUN apt-get install -y\
+apt-get update && apt upgrade && apt-get install -y\
     coreutils \
     bash \
     nodejs \
@@ -44,14 +44,14 @@ RUN apt-get install -y\
     procps \
     policykit-1
 
-RUN pip3 install --upgrade pip setuptools 
-RUN if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi 
-RUN if [ ! -e /usr/bin/python ]; then ln -sf /usr/bin/python3 /usr/bin/python; fi 
-RUN rm -r /root/.cache
-RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm -rf google-chrome-stable_current_amd64.deb
-RUN git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
-RUN mkdir /root/ItzSjDude/bin/  && mkdir root/ItzSjDude/pikabot/main_plugs/
-WORKDIR /root/ItzSjDude
-RUN chmod +x /usr/local/bin/*
-RUN pip3 install -r requirements.txt
-CMD ["python3","-m"]
+pip3 install --upgrade pip setuptools 
+if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi 
+if [ ! -e /usr/bin/python ]; then ln -sf /usr/bin/python3 /usr/bin/python; fi 
+rm -r /root/.cache
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm -rf google-chrome-stable_current_amd64.deb
+git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
+mkdir /root/ItzSjDude/bin/  && mkdir root/ItzSjDude/pikabot/main_plugs/
+export WORKDIR /root/ItzSjDude
+chmod +x /usr/local/bin/*
+pip3 install -r requirements.txt
+export CMD ["python3","-m"]
