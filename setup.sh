@@ -59,7 +59,7 @@ mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
 mkdir /root/ItzSjDude/bin/  && mkdir root/ItzSjDude/pikabot/main_plugs/
 pip3 install -r requirements.txt
-export CMD ["python3","-m"]
+
 
 
 
