@@ -55,9 +55,10 @@ apt-get install -y --no-install-recommends \
     policykit-1
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm -rf google-chrome-stable_current_amd64.deb
+mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
 mkdir /root/ItzSjDude/bin/  && mkdir root/ItzSjDude/pikabot/main_plugs/
-WORKDIR /root/ItzSjDude
+export /root/ItzSjDude
 chmod +x /usr/local/bin/*
 pip3 install -r requirements.txt
 export CMD ["python3","-m"]
