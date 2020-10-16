@@ -60,7 +60,7 @@ apt-get install -y \
  
 pip3 install --upgrade pip setuptools 
 git clone https://github.com/ItzSjDude/PikachuUserbot ./
-mkdir bin && mkdir main_plugs
+mkdir bin && mkdir pikabot/main_plugs
 pip3 install -r requirements.txt 
 
 echo '
