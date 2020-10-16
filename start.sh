@@ -59,7 +59,7 @@ apt-get install -y \
     policykit-1
  
 pip3 install --upgrade pip setuptools 
-git clone https://github.com/ItzSjDude/PikachuUserbot /ItzSjDude
+git clone https://github.com/ItzSjDude/PikachuUserbot ./
 mkdir bin && mkdir main_plugs
 pip3 install -r requirements.txt 
 
