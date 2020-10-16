@@ -14,7 +14,7 @@ ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 apt-get update 
 
-apt-get install -y --no-install-recommends \
+apt-get install -y \
     coreutils \
     bash \
     nodejs \
@@ -64,7 +64,6 @@ mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
 mkdir /root/ItzSjDude/bin/  && mkdir root/ItzSjDude/pikabot/main_plugs/
 cd root/ItzSjDude && pip3 install -r requirements.txt 
-cd root/ItzSjDude
 echo '
 ┏━┳┳┓╋╋╋┏┓╋╋┏┓         
 ┃╋┣┫┣┳━┓┃┗┳━┫┗┓•Deployment Finished•
