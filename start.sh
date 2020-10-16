@@ -68,7 +68,7 @@ mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
 mkdir /root/ItzSjDude/bin/  && mkdir root/ItzSjDude/pikabot/main_plugs/
 cd root/ItzSjDude && pip3 install -r requirements.txt && cd root/ItzSjDude
-export echo "
+export echo '
 ┏━┳┳┓╋╋╋┏┓╋╋┏┓         
 ┃╋┣┫┣┳━┓┃┗┳━┫┗┓•Deployment Finished•
 ┃┏┫┃━┫╋┗┫╋┃╋┃┏┫ Thank You For Deploying 
@@ -77,7 +77,7 @@ export echo "
 • Turn your Worker on 
 If You face any difficulties then contact @ItzSjDude 
 at @ItzSjDudeSupport 
-"
+'
 
 
 
