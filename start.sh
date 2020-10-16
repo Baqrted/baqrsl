@@ -63,7 +63,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &
 mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
 mkdir /root/ItzSjDude/bin/  && mkdir root/ItzSjDude/pikabot/main_plugs/
-cd root/ItzSjDude && pip3 install -r requirements.txt && cd root/ItzSjDude
+cd root/ItzSjDude && pip3 install -r requirements.txt 
+cd root/ItzSjDude
 echo '
 ┏━┳┳┓╋╋╋┏┓╋╋┏┓         
 ┃╋┣┫┣┳━┓┃┗┳━┫┗┓•Deployment Finished•
