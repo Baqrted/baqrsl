@@ -6,12 +6,12 @@ set -euo pipefail
 exec 2>&1
 set -x
 
-export echo "
+export echo '
 ┏━┳┳┓╋╋╋┏┓╋╋┏┓           
 ┃╋┣┫┣┳━┓┃┗┳━┫┗┓ •Deployment started•
 ┃┏┫┃━┫╋┗┫╋┃╋┃┏┫
 ┗┛┗┻┻┻━━┻━┻━┻━┛
-"
+'
 export TZ=Asia/Kolkata
 ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
