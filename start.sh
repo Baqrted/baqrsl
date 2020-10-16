@@ -6,7 +6,7 @@ set -euo pipefail
 exec 2>&1
 set -x
 
-export echo '
+echo '
 ┏━┳┳┓╋╋╋┏┓╋╋┏┓           
 ┃╋┣┫┣┳━┓┃┗┳━┫┗┓ •Deployment started•
 ┃┏┫┃━┫╋┗┫╋┃╋┃┏┫
@@ -68,7 +68,7 @@ mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
 mkdir /root/ItzSjDude/bin/  && mkdir root/ItzSjDude/pikabot/main_plugs/
 cd root/ItzSjDude && pip3 install -r requirements.txt && cd root/ItzSjDude
-export echo '
+echo '
 ┏━┳┳┓╋╋╋┏┓╋╋┏┓         
 ┃╋┣┫┣┳━┓┃┗┳━┫┗┓•Deployment Finished•
 ┃┏┫┃━┫╋┗┫╋┃╋┃┏┫ Thank You For Deploying 
