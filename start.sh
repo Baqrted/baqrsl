@@ -60,8 +60,7 @@ apt-get install -y --no-install-recommends \
     libfreetype6-dev \
     procps \
     policykit-1
-
-easy_install pip 
+ 
 pip install pip --upgrade
 pip install setuptools --upgrade 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm -rf google-chrome-stable_current_amd64.deb
