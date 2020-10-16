@@ -61,8 +61,9 @@ apt-get install -y --no-install-recommends \
     procps \
     policykit-1
 
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-pip install setuptools 
+easy_install pip 
+pip install pip --upgrade
+pip install setuptools --upgrade 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm -rf google-chrome-stable_current_amd64.deb
 mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
