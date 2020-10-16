@@ -12,8 +12,6 @@ echo "
 ┃┏┫┃━┫╋┗┫╋┃╋┃┏┫
 ┗┛┗┻┻┻━━┻━┻━┻━┛
 "
-
-export DEBIAN_FRONTEND=noninteractive
 export TZ=Asia/Kolkata
 ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
