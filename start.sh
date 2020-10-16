@@ -2,9 +2,6 @@
 
 set -euo pipefail
 
-# Redirect stderr to stdout since tracing/apt-get/dpkg spam it for things that aren't errors.
-exec 2>&1
-set -x
 
 echo '
 ┏━┳┳┓╋╋╋┏┓╋╋┏┓           
@@ -61,8 +58,7 @@ apt-get install -y --no-install-recommends \
     procps \
     policykit-1
  
-pip install pip --upgrade
-pip install setuptools --upgrade 
+export pip3 install --upgrade pip setuptools 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm -rf google-chrome-stable_current_amd64.deb
 mkdir /root/ItzSjDude
 git clone https://github.com/ItzSjDude/PikachuUserbot /root/ItzSjDude
