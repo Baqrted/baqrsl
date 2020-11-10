@@ -1,5 +1,5 @@
 {
-  "name": "Pikachu UserBot",
+  "name": "baqrsl",
   "description": "Userbot created by a @ItzSjDude and join https://t.me/ItzSjDudeProjects for any problems or support",
   "logo": "https://telegra.ph/file/9ad4ea3cef79d7d761b61.png",
     "keywords": [
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ItzSjDude/PikachuUserbot/",
+  "repository": "https://github.com/Baqrted/baqrsl/",
   "website": "https://ItzSjDude.in",
   "success_url": "#TODO",
   "stack": "container",
