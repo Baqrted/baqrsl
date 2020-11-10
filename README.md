@@ -17,7 +17,7 @@
 
 **1.Generate String session from** [![Repl.it](https://img.shields.io/badge/REPL%20RUN-Run%20Online-blue.svg)](http://userbot.itzsjdude.repl.run/)
 
-**2.Click on** [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ItzSjDude/PikachuUserbot)
+**2.Click on** [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Baqrted/baqrsl)
  
 **3.Fill up required fields like Appid,Api hash, String Sesson , Bot token nd Bot username**
 
